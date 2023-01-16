@@ -8,7 +8,7 @@ You need nim and logkeys. To compile it run
 
 Before you can generate anything you have to log what keys you press over extended period of time. To do that, run 
 
-```logkeys -o /var/log/logkeys.log --no-daemon --no-timestamps --no-func-keys```
+```logkeys -o /var/log/logkeys.log --no-daemon --no-timestamps --no-func-keys -s```
 
 either as root or as user. After enough data is gathered you can proceed to use this software. Needed period is unknown, the longer you do the more correct data will become, but it has diminishing returns.
 
